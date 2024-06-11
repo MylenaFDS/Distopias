@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto sobre Distopias</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>Distopias</h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#section1" class="button button--secondary">Sobre o Gênero</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#section2" class="button button--secondary">Livros</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#section3" class="button button--secondary">Filmes</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section id="section1" class="hero">
+        <div class="hero__content">
+            <h2 class="title--big">Sobre o Gênero</h2>
+            <p>
+                O gênero distópico é uma forma de ficção especulativa que explora sociedades imaginárias caracterizadas por
+                sistemas opressivos e condições de vida extremas. Muitas vezes, esses mundos distópicos servem como críticas
+                sociais, abordando questões como autoritarismo, vigilância em massa, desumanização e perda de liberdade.
+            </p>
+            <h3 class="title--small">Críticas Sociais</h3>
+            <p>
+                As distopias frequentemente levantam questões sobre a direção em que a sociedade está indo, refletindo temores e
+                preocupações contemporâneas. Ao exagerar elementos negativos da nossa realidade, elas nos forçam a confrontar
+                problemas e a considerar as consequências de nossas ações coletivas.
+            </p>
+        </div>
+    </section>
+    <section id="section2" class="shows">
+        <h2 class="title--big">Livros</h2>
+        <nav class="shows__tabs">
+            <button data-tab-button="nacionais" class="shows__tabs__button shows__tabs__button--is-active">
+                Nacionais
+            </button>
+            <button data-tab-button="internacionais" class="shows__tabs__button">
+                Internacionais
+            </button>
+        </nav>
+        <ul data-tab-id="nacionais" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <h3>Livros Nacionais</h3>
+                <p><strong>Livro 1:</strong> Sinopse do livro nacional 1.</p>
+                <p><strong>Livro 2:</strong> Sinopse do livro nacional 2.</p>
+            </li>
+        </ul>
+        <ul data-tab-id="internacionais" class="shows__list">
+            <li class="shows__list__item">
+                <h3>Livros Internacionais</h3>
+                <p><strong>Livro 1:</strong> Sinopse do livro internacional 1.</p>
+                <p><strong>Livro 2:</strong> Sinopse do livro internacional 2.</p>
+            </li>
+        </ul>
+    </section>
+    <section id="section3" class="plans">
+        <h2 class="title--big">Filmes</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <strong class="title--small">Filme 1:</strong>
+                <p class="text--big">Sinopse do filme 1.</p>
+            </li>
+            <li class="plans__list__item">
+                <strong class="title--small">Filme 2:</strong>
+                <p class="text--big">Sinopse do filme 2.</p>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <h2 class="footer__title">Projeto sobre Distopias</h2>
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <a href="#section1" class="text--small">Sobre o Gênero</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#section2" class="text--small">Livros</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#section3" class="text--small">Filmes</a>
+                </li>
+            </ul>
+            <p class="text--small">© 2024 Projeto sobre Distopias. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
+
