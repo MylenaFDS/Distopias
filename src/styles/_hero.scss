@@ -8,6 +8,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
     @media (max-width: 768px) {
         background-image: url(../images/hero_celular.jpeg);
         padding-top: calc(50vw + 25px);
@@ -44,7 +45,5 @@
                 margin-top: 60px;
             }
         }
-
-        
     }
 }

@@ -7,6 +7,7 @@
     background-color: variaveis.$corDeFundo;
     transition: background-color .5s ease;
     z-index: 1;
+    border-bottom: 1px solid variaveis.$corTextoPrincipal;
 
     &--is-hidden {
         background-color: transparent;

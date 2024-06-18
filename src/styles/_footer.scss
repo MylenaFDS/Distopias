@@ -2,6 +2,8 @@
 
 .footer {
     padding: 26px 8px;
+    background-color: variaveis.$corDeFundo;
+    border-top: 1px solid variaveis.$corTextoPrincipal;
 
     &__container {
         max-width: 1024px;
@@ -30,6 +32,7 @@
                 text-decoration: none;
                 padding: 8px 16px;
                 display: block;
+                color: variaveis.$corTextoPrincipal;
 
                 &:hover {
                     color: variaveis.$corTextoSecundario;
@@ -40,6 +43,7 @@
 
     p {
         margin-bottom: 16px;
+        color: variaveis.$corTextoPrincipal;
     }
 }
 
